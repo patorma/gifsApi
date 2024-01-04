@@ -9,8 +9,9 @@
    <div class="col-12 pt-2">
       <!--Listado de Gifs-->
       <!--card-list el contenido este en un componente en particular
-      .ts, .html-->
-   <gifs-card-list></gifs-card-list>
+      .ts, .html
+    el argumento dentro de corchete es la variable del hijo con @Input()-->
+   <gifs-card-list [gifs] ="gifs"></gifs-card-list>
 
    </div>
 </div>

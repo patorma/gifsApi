@@ -12,7 +12,6 @@ export class SearchBoxComponent {
   // con ! le indicamos que siempre estara ese valor osea nunca sera nulo
   //@ViewChild() sirve para tomar un referencia local
   @ViewChild('txtTagInput')
-  @Output()
  public tagInput!: ElementRef<HTMLInputElement>;
 
 
